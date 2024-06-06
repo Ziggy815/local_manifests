@@ -1,0 +1,24 @@
+<manifest>
+    <!-- Remotes -->
+    <remote name="ziggy" fetch="https://github.com/ziggy815" revision="lineage-20" />
+    <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-20" />
+	<remote name="gapps" fetch="https://gitlab.com/MindTheGapps/" revision="tau" />
+
+    <!-- Device / Kernel prebuilts -->
+    <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo" remote="ziggy" />
+    <project path="device/xiaomi/yunluo-kernel" name="android_device_xiaomi_yunluo-kernel" remote="ziggy" />
+
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ziggy" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" />
+
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ziggy" />
+
+    <!-- Proprietary vendor -->
+    <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="ziggy" />
+
+	<!-- MindTheGapps vendor -->
+	<project path="vendor/gapps" name="vendor_gapps" remote="gapps" />
+
+</manifest>
