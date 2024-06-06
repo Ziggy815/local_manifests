@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="Ziggy815"
+            fetch="https://github.com/Ziggy815"
+            clone-depth="1" />
+ <!--Credit to zhengz/rik0612c for Sources and keeping our device alive -->                            
+ <!--Tree -->
+ <project path="device/lenovo/TB8703N" name="android_device_lenovo_TB8703N" remote="Ziggy815" revision="lineage-20.0" />
+
+ <!--Kernel -->
+ <project path="kernel/lenovo/msm8953" name="android_kernel_lenovo_msm8953" remote="Ziggy815" revision="lineage-20.0" />
+
+ <!--Vendor -->
+ <project path="vendor/lenovo/TB8703N" name="android_vendor_lenovo_TB8703N" remote="Ziggy815" revision="lineage-20.0" />
+
+ <!--Other HALs-->
+   
+ <!-- Dependencies -->
+
+ <!-- Replacements -->
+
+ <!-- Common -->
+ <project path="device/lenovo/msm8953-common" name="android_device_lenovo_msm8953-common" remote="Ziggy815" revision="lineage-20.0" />
+ <project path="vendor/lenovo/msm8953-common" name="android_vendor_lenovo_msm8953-common" remote="Ziggy815" revision="lineage-20.0" />
+
+</manifest>
